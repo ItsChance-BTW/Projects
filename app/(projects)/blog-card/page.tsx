@@ -14,7 +14,7 @@ export default function Page() {
             className="h-[288px] rounded-t-lg"
           />
           <div className="flex flex-col gap-3 px-4 py-6">
-            <div className="flex flex-col h-[60px]">
+            <div className="flex flex-col gap-2 h-[60px]">
               <div className="flex items-center w-[67px] h-6 px-2 py-0.5 bg-green-50 border border-green-200 rounded-full text-green-700 text-sm leading-5">
                 Interior
               </div>
@@ -29,7 +29,7 @@ export default function Page() {
               </div>
               <div className="flex h-6 text-indigo-700">
                 <button className="flex gap-1.5 hover:text-indigo-800 focus:text-indigo-800 focus:ring focus:rounded focus:ring-[#444CE7]/[.12] focus:outline-none">
-                  <p className="px-0.5">Read More</p>
+                  <p className="px-0.5">Read more</p>
                   <i className="ri-arrow-right-line w-5 h-5"></i>
                 </button>
               </div>
