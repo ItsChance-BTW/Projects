@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
+import 'remixicon/fonts/remixicon.css'
 
 export const metadata: Metadata = {
   title: "GreatFrontEnd Projects",
