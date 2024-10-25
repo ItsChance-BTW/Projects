@@ -28,7 +28,7 @@ export default function Page() {
                 the same time.
               </div>
               <div className="flex h-6 text-indigo-700">
-                <button className="flex gap-1.5 hover:text-indigo-800 focus:text-indigo-800 focus:ring focus:rounded focus:ring-[#444CE7]/[.12]">
+                <button className="flex gap-1.5 hover:text-indigo-800 focus:text-indigo-800 focus:ring focus:rounded focus:ring-[#444CE7]/[.12] focus:outline-none">
                   <p className="px-0.5">Read More</p>
                   <i className="ri-arrow-right-line w-5 h-5"></i>
                 </button>
