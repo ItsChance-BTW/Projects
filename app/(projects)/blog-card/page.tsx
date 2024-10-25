@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div className={`${styles.main}`}>
-      <div className="flex justify-center items-center h-full">
+      <div className="flex justify-center pt-[120px] h-full">
         <div className="flex flex-col bg-white w-[340px] h-[504px] rounded-lg drop-shadow">
           <Image
             src={"/img/spacejoy.jpg"}
