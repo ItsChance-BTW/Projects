@@ -5,8 +5,8 @@ import Button from "@/components/common/Button";
 export default function Page() {
     return (
         <div className="px-6 md:px-8 lg:px-0 flex justify-center items-start py-[112px]">
-            <div className="flex flex-col gap-12">
-                <div className="flex items-center gap-5">
+            <div className="flex flex-col gap-12 w-[300px] md:w-auto">
+                <div className="flex flex-wrap items-center gap-5">
                     <Button
                         text="Button CTA"
                         onClick={() => {}}
@@ -50,7 +50,7 @@ export default function Page() {
                         }}
                     />
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex flex-wrap items-center gap-5">
                     <Button
                         text="Button CTA"
                         onClick={() => {}}
@@ -94,7 +94,7 @@ export default function Page() {
                         }}
                     />
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex flex-wrap items-center gap-5">
                     <Button
                         text="Button CTA"
                         onClick={() => {}}
@@ -138,7 +138,7 @@ export default function Page() {
                         }}
                     />
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex flex-wrap items-center gap-5">
                     <Button
                         text="Button CTA"
                         onClick={() => {}}
@@ -187,7 +187,7 @@ export default function Page() {
                         }}
                     />
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex flex-wrap items-center gap-5">
                     <Button
                         text="Button CTA"
                         onClick={() => {}}
@@ -237,7 +237,7 @@ export default function Page() {
                         }}
                     />
                 </div>
-                <div className="flex items-center gap-5">
+                <div className="flex flex-wrap items-center gap-5">
                     <Button
                         text="Button CTA"
                         onClick={() => {}}
