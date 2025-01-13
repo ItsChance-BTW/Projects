@@ -13,7 +13,7 @@ export default function Page() {
                 <TextArea
                     text=""
                     label="Description"
-                    placeholder="Write your message..."
+                    placeholder="Enter a description..."
                     charLimit={500}
                     error="This field is required"
                 />

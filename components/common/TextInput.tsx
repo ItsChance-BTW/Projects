@@ -43,7 +43,7 @@ const TextInput: React.FC<TextInputProps> = ({
     return (
         <div className="flex flex-col gap-1.5 text-sm">
             <div className="flex flex-col gap-1.5">
-                <label htmlFor="input-text" className="text-neutral-700">
+                <label htmlFor="input-text" className="text-neutral-700 font-medium">
                     {label}
                 </label>
                 <div className="relative">

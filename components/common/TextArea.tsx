@@ -33,7 +33,7 @@ const TextArea: React.FC<TextAreaProps> = ({
     return (
         <div className="flex flex-col gap-1.5 text-sm">
             <div className="flex flex-col gap-1.5">
-                <label className="text-neutral-700" htmlFor="input-text">
+                <label className="text-neutral-700 font-medium" htmlFor="input-text">
                     {label}
                 </label>
                 <textarea
