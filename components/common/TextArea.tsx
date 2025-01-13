@@ -37,7 +37,7 @@ const TextArea: React.FC<TextAreaProps> = ({
                     {label}
                 </label>
                 <textarea
-                    className={`px-3.5 py-3 w-full h-[108px] text-neutral-900 bg-neutral-50 border ${borderColor} rounded-lg resize-none focus:outline-none focus:ring ${ringColor} disabled:border-neutral-100 disabled:placeholder:text-neutral-400 disabled:cursor-not-allowed`}
+                    className={`px-3.5 py-3 w-full h-[108px] text-neutral-900 bg-neutral-50 border ${borderColor} placeholder:text-neutral-500 rounded-lg resize-none focus:outline-none focus:ring ${ringColor} disabled:border-neutral-100 disabled:placeholder:text-neutral-400 disabled:cursor-not-allowed`}
                     id="input-text"
                     value={inputText}
                     maxLength={charLimit}
