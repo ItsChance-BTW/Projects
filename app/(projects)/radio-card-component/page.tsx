@@ -4,7 +4,7 @@ import RadioCard from "@/components/common/RadioCard";
 
 export default function Page() {
     return (
-        <div className="flex flex-col gap-8 justify-center items-center py-[200px]">
+        <div className="flex flex-col gap-8 justify-center items-center py-[200px] h-screen">
             <div className="flex flex-wrap justify-center items-center gap-x-4 md:gap-x-6 gap-y-3 md:gap-y-6 w-[300px] md:w-[448px] lg:w-[640px]">
                 <RadioCard
                     text="Weekly"
